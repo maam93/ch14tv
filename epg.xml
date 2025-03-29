@@ -1,112 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="Ch4teen-EPG" generator-info-url="https://example.com">
+<tv generator-info-name="Ch14-EPG" generator-info-url="https://ch14.tv">
   
   <!-- تعريف القناة -->
-  <channel id="Ch4teen">
-    <display-name>Ch4teen</display-name>
+  <channel id="ch14.tv">
+    <display-name>Ch14 TV</display-name>
     <icon src="https://ch14.tv/img/logo.png"/>
   </channel>
 
-  <!-- البرامج ليوم الجمعة 2023-10-20 -->
-  
+  <!-- جدول البرامج -->
+
   <!-- 00:00 - شرح دعاء أبي حمزة الثمالي -->
-  <programme start="20231020000000 +0300" stop="20231020010000 +0300" channel="Ch4teen">
+  <programme start="20250329000000 +0300" stop="20250329010000 +0300" channel="ch14.tv">
     <title lang="ar">شرح دعاء أبي حمزة الثمالي</title>
     <desc lang="ar">سماحة السيد محمد الصافي</desc>
     <category lang="ar">ديني</category>
   </programme>
 
   <!-- 01:00 - مسابقة جائزة العميد الدولية -->
-  <programme start="20231020010000 +0300" stop="20231020023000 +0300" channel="Ch4teen">
+  <programme start="20250329010000 +0300" stop="20250329023000 +0300" channel="ch14.tv">
     <title lang="ar">مسابقة جائزة العميد الدولية</title>
+    <desc lang="ar">مسابقة ثقافية دولية</desc>
     <category lang="ar">ثقافي</category>
   </programme>
 
   <!-- 02:30 - دعاء أبي حمزة الثمالي -->
-  <programme start="20231020023000 +0300" stop="20231020040000 +0300" channel="Ch4teen">
+  <programme start="20250329023000 +0300" stop="20250329040000 +0300" channel="ch14.tv">
     <title lang="ar">دعاء أبي حمزة الثمالي</title>
+    <desc lang="ar">دعاء خاص بليالي شهر رمضان</desc>
     <category lang="ar">دعاء</category>
   </programme>
 
-  <!-- 04:00 - الختمة القرآنية من حرم الإمام الرضا -->
-  <programme start="20231020040000 +0300" stop="20231020150000 +0300" channel="Ch4teen">
+  <!-- 04:00 - الختمة القرآنية -->
+  <programme start="20250329040000 +0300" stop="20250329150000 +0300" channel="ch14.tv">
     <title lang="ar">مباشر: الختمة القرآنية</title>
     <desc lang="ar">من حرم الإمام الرضا - مشهد المقدسة</desc>
     <category lang="ar">قرآن</category>
   </programme>
 
-  <!-- 15:00 - مباشر الشيخ علي موحان -->
-  <programme start="20231020150000 +0300" stop="20231020160000 +0300" channel="Ch4teen">
+  <!-- 15:00 - محاضرة دينية -->
+  <programme start="20250329150000 +0300" stop="20250329160000 +0300" channel="ch14.tv">
     <title lang="ar">مباشر: الشيخ علي موحان</title>
-    <desc lang="ar">من العتبة العباسية المقدسة</desc>
+    <desc lang="ar">محاضرة من العتبة العباسية المقدسة</desc>
     <category lang="ar">محاضرة</category>
   </programme>
 
-  <!-- 16:00 - الختمة القرآنية العتبة العباسية -->
-  <programme start="20231020160000 +0300" stop="20231020163000 +0300" channel="Ch4teen">
-    <title lang="ar">مباشر: الختمة القرآنية</title>
-    <desc lang="ar">من العتبة العباسية المقدسة</desc>
-    <category lang="ar">قرآن</category>
-  </programme>
-
-  <!-- 16:30 - الختمة القرآنية العتبة الكاظمية -->
-  <programme start="20231020163000 +0300" stop="20231020193000 +0300" channel="Ch4teen">
-    <title lang="ar">مباشر: الختمة القرآنية</title>
-    <desc lang="ar">من العتبة الكاظمية المقدسة</desc>
-    <category lang="ar">قرآن</category>
-  </programme>
-
   <!-- 19:30 - دعاء الافتتاح -->
-  <programme start="20231020193000 +0300" stop="20231020200000 +0300" channel="Ch4teen">
+  <programme start="20250329193000 +0300" stop="20250329200000 +0300" channel="ch14.tv">
     <title lang="ar">مباشر: دعاء الافتتاح</title>
     <desc lang="ar">من العتبة العباسية المقدسة</desc>
     <category lang="ar">دعاء</category>
   </programme>
 
   <!-- 20:00 - السيد محمد رضا شرف الدين -->
-  <programme start="20231020200000 +0300" stop="20231020204000 +0300" channel="Ch4teen">
+  <programme start="20250329200000 +0300" stop="20250329204000 +0300" channel="ch14.tv">
     <title lang="ar">مباشر: السيد محمد رضا شرف الدين</title>
-    <desc lang="ar">من العتبة العلوية المقدسة</desc>
-    <category lang="ar">محاضرة</category>
-  </programme>
-
-  <!-- 20:40 - الشيخ محمد البرهاني -->
-  <programme start="20231020204000 +0300" stop="20231020210000 +0300" channel="Ch4teen">
-    <title lang="ar">مباشر: الشيخ محمد البرهاني</title>
-    <desc lang="ar">من العتبة العلوية المقدسة</desc>
+    <desc lang="ar">محاضرة من العتبة العلوية المقدسة</desc>
     <category lang="ar">محاضرة</category>
   </programme>
 
   <!-- 21:00 - برنامج لنتفقه -->
-  <programme start="20231020210000 +0300" stop="20231020213000 +0300" channel="Ch4teen">
+  <programme start="20250329210000 +0300" stop="20250329213000 +0300" channel="ch14.tv">
     <title lang="ar">برنامج: لنتفقه</title>
+    <desc lang="ar">برنامج تعليمي فقهي</desc>
     <category lang="ar">تعليمي</category>
   </programme>
 
-  <!-- 21:30 - الشيخ فوزي السيف -->
-  <programme start="20231020213000 +0300" stop="20231020220000 +0300" channel="Ch4teen">
-    <title lang="ar">مباشر: الشيخ فوزي السيف</title>
-    <desc lang="ar">من مسجد زين العابدين - سيهات</desc>
-    <category lang="ar">محاضرة</category>
-  </programme>
-
   <!-- 22:00 - المحاضرة الدينية -->
-  <programme start="20231020220000 +0300" stop="20231020221500 +0300" channel="Ch4teen">
+  <programme start="20250329220000 +0300" stop="20250329221500 +0300" channel="ch14.tv">
     <title lang="ar">مباشر: المحاضرة الدينية</title>
-    <desc lang="ar">من العتبة العباسية المقدسة</desc>
+    <desc lang="ar">محاضرة دينية من العتبة العباسية</desc>
     <category lang="ar">ديني</category>
   </programme>
 
   <!-- 22:15 - المحفل القرآني -->
-  <programme start="20231020221500 +0300" stop="20231020230000 +0300" channel="Ch4teen">
+  <programme start="20250329221500 +0300" stop="20250329230000 +0300" channel="ch14.tv">
     <title lang="ar">مباشر: المحفل القرآني</title>
-    <desc lang="ar">رواق عبدالله بن عبدالمطلب - العتبة الكاظمية</desc>
+    <desc lang="ar">من العتبة الكاظمية المقدسة</desc>
     <category lang="ar">قرآن</category>
   </programme>
 
   <!-- 23:00 - برنامج معارف التراث -->
-  <programme start="20231020230000 +0300" stop="20231021000000 +0300" channel="Ch4teen">
+  <programme start="20250329230000 +0300" stop="20250330000000 +0300" channel="ch14.tv">
     <title lang="ar">برنامج: معارف التراث</title>
+    <desc lang="ar">برنامج يتناول المعارف التراثية</desc>
     <category lang="ar">تراثي</category>
   </programme>
 
