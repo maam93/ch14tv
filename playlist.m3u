@@ -1,3 +1,3 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="Ch4teen" tvg-name="Ch4teen" tvg-logo="https://ch14.tv/img/logo.png" group-title="General",Ch4teen
-http://ch14.tv/live/ch4teen1/playlist.m3u8
+#EXTM3U url-tvg="https://ch14.tv/epg.xml"
+#EXTINF:-1 tvg-id="ch14.tv" tvg-name="Ch14 TV" tvg-logo="https://ch14.tv/img/logo.png", Ch14 TV
+https://ch14.tv/stream.m3u8
